@@ -1,5 +1,5 @@
 
-Start a new DApp with Truffle’s React Box
+## Start a new DApp with Truffle’s React Box
 
 mkdir openlaw-api-tutorial
 cd openlaw-api-tutorial
@@ -38,6 +38,8 @@ Once the Truffle’s React Box works follow this tutorial:
 OpenLaw  — Build a complete Dapp with the OpenLaw API + Truffle + React.js.
 https://medium.com/@OpenLawOfficial/openlaw-api-tutorial-build-a-complete-dapp-with-the-openlaw-api-truffle-react-js-d064717ad41d?fbclid=IwAR1GTEXx2p9oezQAgyN9sHWvA2dLOioPewi0Y-NAnnjIBf9U6CjiHZ9f2D8
 
+In the .env file create a MNEMONIC and INFURA_API_KEY variable. It should be your own mnemoic and Infura API Key (Note: do not put quotes around the mnemonic).
+
 - If there is an error when compiling the contract with truffle-hdwallet-provider, try to execute this:
   npm install truffle-hdwallet-provider
 instead of this:
@@ -53,3 +55,13 @@ truffle migrate --reset --network rinkeby
 
 on /client folder
 npm run start
+
+Test Data
+
+Seller Ethereum Address
+0xE91B4c3F95DFe54c18874771C7d1C9EE3AE00b8f
+theotherguytotest@gmail.com
+
+Buyer Ethereum Address
+0xFE3e5D87904EC3A15020232C88b653a997Ffaad0
+luisvid@gmail.com
