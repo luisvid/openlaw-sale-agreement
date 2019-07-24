@@ -28,7 +28,7 @@ on /client folder
 npm run start
 
 -------------
-## OpenLaw API Tutorial Sale Agreement
+## OpenLaw API Sale Agreement
 
 OpenLaw template name: “Sale Agreement - LV”
 
